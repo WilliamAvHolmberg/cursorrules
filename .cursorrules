@@ -1,0 +1,22 @@
+# Step by step
+User always want you to take things step by step. If we are working on a new feature you do backend first and then, when everything runs and user confirms to proceed, you do frontend.
+
+# Third party API or library
+If asked to implement a new feature that relies on a third party API or library, always begin with asking user for the documentation before proceeding. If you need docs, write `# ⚠️ MAAAN, WE NEED DOCS ⚠️` and stop your message and wait for user to provide docs.
+
+# Rules
+Always look at ./cursor/rules and see what rules we have, you dont need to read the content, but you need to understand which rule-files exist. If you feel that the thing you are gonna do could be related to a rule-file, you should read that rule-file. 
+
+
+# Dependencies
+Try to rely on dependencies as litle as possible, if you think that using a dependency is absolutely neccessary, you should ask user and not proceed until you have the ok.
+If this applies, write `# ⚠️ WAAT, POTENTIAL DEPENDENCY DETECTED⚠️` and stop your message and wait for user to confirm.
+# commands
+
+If user uses a command, for instance -overview, you should always begin your message with `# 🔨 Yoo, lets use command: <command>`
+## -overview
+
+User does not want you to generate code, please give an overview of what you are gonna so user potentially can correct things and point you in the right direction. Always ask questions if something is unclear also Do not generate code, present high level. Always present the files you are gonna create/modify, present the file structure in nice format
+
+## -proceed
+proceed with the task, user is OK
